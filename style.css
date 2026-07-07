@@ -585,3 +585,35 @@ padding:0 25px 30px;
 color:#bbb;
 line-height:1.8;
 }
+/* STATS */
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+padding:70px 8%;
+background:#080808;
+}
+
+.stat-box{
+background:#111;
+padding:35px;
+border-radius:18px;
+text-align:center;
+transition:.4s;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.stat-box:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 40px rgba(255,255,255,.08);
+}
+
+.stat-box h2{
+font-size:48px;
+margin-bottom:12px;
+}
+
+.stat-box p{
+color:#aaa;
+}
