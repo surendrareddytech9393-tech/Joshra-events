@@ -284,3 +284,41 @@ margin-bottom:15px;
 color:#bbb;
 line-height:1.7;
 }
+/* Gallery */
+
+.gallery{
+padding:120px 8%;
+background:#050505;
+text-align:center;
+}
+
+.gallery h5{
+color:#888;
+letter-spacing:4px;
+margin-bottom:15px;
+}
+
+.gallery h2{
+font-size:48px;
+margin-bottom:60px;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.gallery-grid img{
+width:100%;
+height:320px;
+object-fit:cover;
+border-radius:18px;
+cursor:pointer;
+transition:.5s;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.05);
+box-shadow:0 20px 40px rgba(255,255,255,.15);
+}
